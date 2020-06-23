@@ -148,7 +148,7 @@ body {
 	border-radius: 16px;
 	color: #fff;
 	font-size: 12px;
-	top: -10px;
+	top: -6px;
 	right: -14px;
 }
 
@@ -164,7 +164,12 @@ body {
 	fill: #fff;
 }
 
-.icon-link:last-child::before {
+.icon-link:last-child {
+	margin-left: 10px;
+	
+}
+
+.icon-link:nth-child(4)::before {
 	content: "";
 	width: 1px;
 	height: 16px;
@@ -641,6 +646,32 @@ body {
 .present-button-text b {
 	color: #0050b3;
 }
+
+.more {
+	padding-bottom: 16px;
+}
+.nav-group .more {
+	padding-top: 10px;
+	padding-bottom: 16px;
+}
+
+/* .more-button-link {
+} */
+
+.more-icon {
+	margin-left: 16px;
+	margin-right: 6px;
+}
+.nav-group .more-icon {
+	margin-left: 12px;
+	margin-right: 6px;
+}
+
+.more-button-text {
+	color: #0050B3;
+}
+
+
 
 .page {
 	background: #ffffff;
